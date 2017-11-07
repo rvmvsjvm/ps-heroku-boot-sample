@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
 @RestController
-@RequestMapping("api/v1/jaleel/all")
+@RequestMapping("api/v1/jal")
 public class JaleelController {
 	@Autowired
 	private RestTemplate restTemplate;
